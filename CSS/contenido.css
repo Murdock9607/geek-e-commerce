@@ -1,58 +1,124 @@
-.contenidoPrincipal{
+
+.contenidoPrincipal {
     display: flex;
     flex-direction: column;
     margin-left: 2.5rem;
 }
-.top-seccion{
+
+.top-seccion {
     margin-top: 22%;
     margin-right: 4rem;
     display: flex;
     justify-content: space-between;
 }
-.top-seccion2{
+
+.top-seccion2 {
     /* margin-top: 5rem; */
     margin-right: 4rem;
     display: flex;
     justify-content: space-between;
 }
-.galeria{
+
+.galeria {
     margin-top: 1.5rem;
     margin-right: 10rem;
     margin-bottom: 5rem;
 
     display: flex;
 }
-.producto{
-    margin-right:2.5rem ;
+
+.producto {
+    margin-right: 2.5rem;
 }
-.titulo-seccion{
+
+.titulo-seccion {
     font-family: 'Montserrat, bold';
     font-size: 30px;
     color: #4E98DE;
 }
-.ver-todo{
-    border:none;
+
+.ver-todo {
+    border: none;
     color: #4E98DE;
     background-color: white;
     font-family: 'Montserrat';
     cursor: pointer;
 }
-.producto-titulo{
-    border:none;
+
+.producto-titulo {
+    border: none;
     color: #465869;
     background-color: white;
     font-family: 'Montserrat';
 }
-.producto-precio{
-    border:none;
+
+.producto-precio {
+    border: none;
     color: #465869;
     background-color: white;
     font-family: 'Montserrat';
 }
-.producto-ver{
-    border:none;
+
+.producto-ver {
+    border: none;
     color: #4E98DE;
     background-color: white;
     font-family: 'Montserrat';
     cursor: pointer;
+}
+
+@media(min-width: 280px) {
+    .contenidoPrincipal {
+        margin-left: 1rem;
+    }
+
+    .top-seccion {
+        margin-top: 20%;
+        margin-right: 0.5rem;
+    }
+
+    .galeria {
+        margin-top: 2rem;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+
+    }
+
+    .producto {
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .producto-imagen {
+        width: 156px;
+    }
+}
+@media(min-width: 1079px) {
+    .contenidoPrincipal {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+    }
+    .top-seccion {
+        margin-top: 22%;
+        margin-right: 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .galeria {
+        margin-top: 1.5rem;
+        margin-right: 10rem;
+        margin-bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .producto {
+        margin-right: 2.5rem;
+    }
+
+    .producto-imagen {
+        width: 176px;
+    }
 }
