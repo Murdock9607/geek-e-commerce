@@ -1,74 +1,94 @@
-.headerPrincipal{
-    
-    background: linear-gradient(to bottom right,#4E98DE, #4EDEA9);
+.headerPrincipal {
+
+    background: linear-gradient(to bottom right, #4E98DE, #4EDEA9);
     position: relative;
     overflow: hidden;
-    height: 400px;
+    height: 60px;
     display: flex;
     flex-direction: column;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 10rem;
+    margin-left: 5rem;
 }
-.login{
-    margin-left: 50rem;
+
+.login {
+    font-family: 'Montserrat';
+    margin-right: 10px;
+    margin-left: 40rem;
 }
-.barraBusqueda{
+
+.barraBusqueda {
     margin-left: 2rem;
+    font-family: 'Montserrat, bold';
 }
-/* Styles for the photo carousel */
+
+.serch {
+    font-family: 'Montserrat';
+}
+
 .promociones {
     display: flex;
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: slide 10s infinite;
+    height: 25%;
 }
 
-/* Styles for each photo in the carousel */
 .promociones img {
     width: 100%;
-    height: 100%;
+    height: 40%;
+    position: absolute;
     object-fit: cover;
 }
 
-/* Animation for the photo carousel */
-@keyframes slide {
-    0% { transform: translateX(0); }
-    20% { transform: translateX(0); }
-    25% { transform: translateX(-100%); }
-    45% { transform: translateX(-100%); }
-    50% { transform: translateX(-200%); }
-    70% { transform: translateX(-200%); }
-    75% { transform: translateX(-300%); }
-    100% { transform: translateX(-300%); }
-}
-
-/* Styles for the information overlay */
 .header-info {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     text-align: center;
     color: #fff;
     font-size: 2rem;
+    font-family: 'Montserrat';
 }
 
-/* Styles for the information text */
 .header-info h1 {
     margin: 0;
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.2;
     text-shadow: 1px 1px #000;
+    font-family: 'Montserrat';
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #4EDEA9;
+    font-family: 'Montserrat';
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputBusqueda {
+    border-radius: 8px;
+    background-color: #4E98DE;
+    font-family: 'Montserrat';
+    border: none;
+    color: #fff;
+    padding: 10px;
+    width: 15rem;
+}
+
+.inputBusqueda::placeholder {
+    color: white;
 }
