@@ -1,0 +1,14 @@
+{
+  "producto": [
+    {
+      "nombre": "nombre",
+      "precio": "precio",
+      "id": 1
+    },
+    {
+      "nombre": "taza5",
+      "precio": "60",
+      "id": "e55c0d76-1bbf-4a76-ba76-16ddc2de225b"
+    }
+  ]
+}

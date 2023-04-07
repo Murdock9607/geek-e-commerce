@@ -1,0 +1,15 @@
+.inicioSesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+    font-family: 'Montserrat';
+}
+.login-input{
+    margin: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+}
+.body{
+    background-color: #f3fdf9;
+}

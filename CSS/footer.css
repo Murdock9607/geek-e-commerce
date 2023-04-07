@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 .footer-botones{
     display: flex;
@@ -47,6 +48,7 @@
     text-align: center;
     margin: 2rem;
 }
+
 @media (min-width: 280px){
     .rodapiePrincipal{
         flex-direction: column;

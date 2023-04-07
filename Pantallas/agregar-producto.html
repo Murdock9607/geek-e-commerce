@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnglesShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+
+<body class="body">
+    <header class="headerPrincipal">
+        <div class="container">
+            <a href="../index.html"><img class="logo" src="../Angles-logo/cover.png" alt="logoPrincipal"></a>
+        </div>
+    </header>
+    <main>
+        <section class="inicioSesion" data-form>
+            <h3>Agregar producto</h3>
+            <!-- <input class="login-input" type="text" placeholder="URL de la imagen" data-url> -->
+            <input class="login-input" type="text" placeholder="Nombre del producto" data-nombre>
+            <input class="login-input" type="text" placeholder="Precio del producto" data-precio>
+            <form action="">
+                <button class="button">Agregar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodapiePrincipal">
+        <img class="logo" src="../Angles-logo/cover.png" alt="logoPrincipal">
+        <div class="footer-botones">
+            <button class="boton-footer">Quienes somos</button>
+            <button class="boton-footer">Politica de privacidad</button>
+            <button class="boton-footer">Programa de fidelidad</button>
+            <button class="boton-footer">Nuestras tiendas</button>
+            <button class="boton-footer">Quiero ser franquiciado</button>
+            <button class="boton-footer">Anuncie aqui</button>
+        </div>
+        <div class="footer-inputs">
+            <h3 class="footer-titulo">Hable con nosotros</h3>
+            <input class="input-nombre" type="text" placeholder="Nombre">
+            <textarea class="input-mensaje" placeholder="Escribe un mensaje"></textarea>
+            <button class="button">Enviar mensaje</button>
+        </div>
+    </footer>
+    <section class="creditos">
+        <p>Desarrollado por Angel Arturo <br> 2023</p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../Controllers/registroProducto.js"></script>
+</body>
+
+
+</html>
